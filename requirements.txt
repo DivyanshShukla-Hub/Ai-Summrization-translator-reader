@@ -1,0 +1,5 @@
+streamlit
+requests
+python-dotenv
+azure-ai-textanalytics
+azure-cognitiveservices-speech
