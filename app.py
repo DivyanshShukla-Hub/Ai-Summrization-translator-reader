@@ -4,7 +4,7 @@ import os
 from dotenv import load_dotenv
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
-import azure.cognitiveservices.speech as speechsdk
+import azure.cognitiveservices.speech as speechsdk 
 
 # 1. PAGE SETUP & METALLIC CSS THEME
 st.set_page_config(page_title="AI Article Assistant", page_icon="🌐", layout="wide")
@@ -135,6 +135,7 @@ with col2:
                 if st.session_state.audio_ready:
 
                     st.audio("output_audio.wav", format="audio/wav")
+
 
 
 
