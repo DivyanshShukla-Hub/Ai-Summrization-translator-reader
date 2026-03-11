@@ -133,4 +133,8 @@ with col2:
                 
                 # If audio is generated, show the web audio player
                 if st.session_state.audio_ready:
+
                     st.audio("output_audio.wav", format="audio/wav")
+
+
+
